@@ -17,34 +17,6 @@ body {
 
 
     
-/* Header Section */
-.header {
-position: relative;
-height: 100vh;
-background: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center center/cover no-repeat;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.logo {
-position: absolute;
-top: 20px; /* Adjust vertical position as needed */
-}
-
-.logo.left {
-left: 20px; /* Adjust horizontal position as needed */
-}
-
-.logo.right {
-right: 20px; /* Adjust horizontal position as needed */
-}
-
-.header-logo {
-max-width: 150px; /* Adjust the size as needed */
-height: auto;
-/* Optional: Add some styles for the logos */
-}
 
 
 /* Enhanced Header Styles */
@@ -71,18 +43,18 @@ height: auto;
 }
 
 .header .logo.left {
-    left: 20px;
+    left: 40px;
 }
 
 .header .logo.right {
-    right: 20px;
+    right: 40px;
 }
 
 .header-logo {
     max-width: 100%;
     height: auto;
     opacity: 0.9;
-    transition: opacity 0.3s ease;
+    
 }
 
 .header-logo:hover {
@@ -556,7 +528,7 @@ height: auto;
 }
 
 /* Card hover effects */
-.organizer-card:hover {
+.:hover {
     transform: translateY(-15px) scale(1.03);
     box-shadow: 0 15px 30px rgba(0, 255, 255, 0.2);
     border-color: rgba(0, 255, 255, 0.3);
@@ -663,6 +635,7 @@ height: auto;
     z-index: 2;
     grid-column: 1 / -1;
 }
+
 
 .student-title::after {
     content: '';
